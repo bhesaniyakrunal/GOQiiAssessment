@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need access to your location to remind you to drink water when you are in different environments.</string>
 </dict>
 </plist>

@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		FABAAEC52C6A1ECC000D6A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEC42C6A1ECC000D6A44 /* AppDelegate.swift */; };
 		FABAAEC72C6A1ECC000D6A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEC62C6A1ECC000D6A44 /* SceneDelegate.swift */; };
-		FABAAEC92C6A1ECC000D6A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEC82C6A1ECC000D6A44 /* ViewController.swift */; };
+		FABAAEC92C6A1ECC000D6A44 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEC82C6A1ECC000D6A44 /* HomeViewController.swift */; };
 		FABAAECC2C6A1ECC000D6A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABAAECA2C6A1ECC000D6A44 /* Main.storyboard */; };
 		FABAAECF2C6A1ECC000D6A44 /* GOQiiAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FABAAECD2C6A1ECC000D6A44 /* GOQiiAssessment.xcdatamodeld */; };
 		FABAAED12C6A1ECE000D6A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABAAED02C6A1ECE000D6A44 /* Assets.xcassets */; };
 		FABAAED42C6A1ECE000D6A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABAAED22C6A1ECE000D6A44 /* LaunchScreen.storyboard */; };
+		FABAAEE02C6A3621000D6A44 /* WaterLog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEDE2C6A3621000D6A44 /* WaterLog+CoreDataClass.swift */; };
+		FABAAEE12C6A3621000D6A44 /* WaterLog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEDF2C6A3621000D6A44 /* WaterLog+CoreDataProperties.swift */; };
+		FABAAEE42C6A38F7000D6A44 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEE32C6A38F7000D6A44 /* AddEditViewController.swift */; };
+		FABAAEE62C6A3FE6000D6A44 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEE52C6A3FE6000D6A44 /* DatabaseHelper.swift */; };
+		FABAAEED2C6A42CD000D6A44 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEE82C6A42CD000D6A44 /* Config.swift */; };
+		FABAAEEE2C6A42CD000D6A44 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEE92C6A42CD000D6A44 /* String.swift */; };
+		FABAAEF52C6A5F72000D6A44 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEF32C6A5F72000D6A44 /* CustomTableViewCell.swift */; };
+		FABAAEF62C6A5F72000D6A44 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABAAEF42C6A5F72000D6A44 /* CustomTableViewCell.xib */; };
+		FABAAEF82C6A7767000D6A44 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEF72C6A7767000D6A44 /* Extention.swift */; };
+		FABAAEFA2C6A864B000D6A44 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAAEF92C6A864B000D6A44 /* NotificationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FABAAEC12C6A1ECC000D6A44 /* GOQiiAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOQiiAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABAAEC42C6A1ECC000D6A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABAAEC62C6A1ECC000D6A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FABAAEC82C6A1ECC000D6A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FABAAEC82C6A1ECC000D6A44 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FABAAECB2C6A1ECC000D6A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FABAAECE2C6A1ECC000D6A44 /* GOQiiAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GOQiiAssessment.xcdatamodel; sourceTree = "<group>"; };
 		FABAAED02C6A1ECE000D6A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABAAED32C6A1ECE000D6A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABAAED52C6A1ECE000D6A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABAAEDE2C6A3621000D6A44 /* WaterLog+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterLog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FABAAEDF2C6A3621000D6A44 /* WaterLog+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterLog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FABAAEE32C6A38F7000D6A44 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		FABAAEE52C6A3FE6000D6A44 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		FABAAEE82C6A42CD000D6A44 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FABAAEE92C6A42CD000D6A44 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FABAAEF32C6A5F72000D6A44 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		FABAAEF42C6A5F72000D6A44 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		FABAAEF72C6A7767000D6A44 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		FABAAEF92C6A864B000D6A44 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +80,56 @@
 			children = (
 				FABAAEC42C6A1ECC000D6A44 /* AppDelegate.swift */,
 				FABAAEC62C6A1ECC000D6A44 /* SceneDelegate.swift */,
-				FABAAEC82C6A1ECC000D6A44 /* ViewController.swift */,
 				FABAAECA2C6A1ECC000D6A44 /* Main.storyboard */,
-				FABAAED02C6A1ECE000D6A44 /* Assets.xcassets */,
+				FABAAEDB2C6A20D8000D6A44 /* Controller */,
+				FABAAEF22C6A5F45000D6A44 /* Custom Cell */,
+				FABAAEE72C6A42CD000D6A44 /* Utils */,
+				FABAAEE22C6A3637000D6A44 /* CoreDataProperties */,
 				FABAAED22C6A1ECE000D6A44 /* LaunchScreen.storyboard */,
+				FABAAED02C6A1ECE000D6A44 /* Assets.xcassets */,
 				FABAAED52C6A1ECE000D6A44 /* Info.plist */,
 				FABAAECD2C6A1ECC000D6A44 /* GOQiiAssessment.xcdatamodeld */,
 			);
 			path = GOQiiAssessment;
+			sourceTree = "<group>";
+		};
+		FABAAEDB2C6A20D8000D6A44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FABAAEC82C6A1ECC000D6A44 /* HomeViewController.swift */,
+				FABAAEE32C6A38F7000D6A44 /* AddEditViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FABAAEE22C6A3637000D6A44 /* CoreDataProperties */ = {
+			isa = PBXGroup;
+			children = (
+				FABAAEDE2C6A3621000D6A44 /* WaterLog+CoreDataClass.swift */,
+				FABAAEDF2C6A3621000D6A44 /* WaterLog+CoreDataProperties.swift */,
+				FABAAEE52C6A3FE6000D6A44 /* DatabaseHelper.swift */,
+			);
+			path = CoreDataProperties;
+			sourceTree = "<group>";
+		};
+		FABAAEE72C6A42CD000D6A44 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FABAAEF72C6A7767000D6A44 /* Extention.swift */,
+				FABAAEE82C6A42CD000D6A44 /* Config.swift */,
+				FABAAEE92C6A42CD000D6A44 /* String.swift */,
+				FABAAEF92C6A864B000D6A44 /* NotificationHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FABAAEF22C6A5F45000D6A44 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FABAAEF32C6A5F72000D6A44 /* CustomTableViewCell.swift */,
+				FABAAEF42C6A5F72000D6A44 /* CustomTableViewCell.xib */,
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +192,7 @@
 			files = (
 				FABAAED42C6A1ECE000D6A44 /* LaunchScreen.storyboard in Resources */,
 				FABAAED12C6A1ECE000D6A44 /* Assets.xcassets in Resources */,
+				FABAAEF62C6A5F72000D6A44 /* CustomTableViewCell.xib in Resources */,
 				FABAAECC2C6A1ECC000D6A44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +204,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABAAEC92C6A1ECC000D6A44 /* ViewController.swift in Sources */,
+				FABAAEE12C6A3621000D6A44 /* WaterLog+CoreDataProperties.swift in Sources */,
+				FABAAEE42C6A38F7000D6A44 /* AddEditViewController.swift in Sources */,
+				FABAAEF52C6A5F72000D6A44 /* CustomTableViewCell.swift in Sources */,
+				FABAAEEE2C6A42CD000D6A44 /* String.swift in Sources */,
+				FABAAEF82C6A7767000D6A44 /* Extention.swift in Sources */,
+				FABAAEED2C6A42CD000D6A44 /* Config.swift in Sources */,
+				FABAAEFA2C6A864B000D6A44 /* NotificationHelper.swift in Sources */,
+				FABAAEE02C6A3621000D6A44 /* WaterLog+CoreDataClass.swift in Sources */,
+				FABAAEC92C6A1ECC000D6A44 /* HomeViewController.swift in Sources */,
+				FABAAEE62C6A3FE6000D6A44 /* DatabaseHelper.swift in Sources */,
 				FABAAEC52C6A1ECC000D6A44 /* AppDelegate.swift in Sources */,
 				FABAAEC72C6A1ECC000D6A44 /* SceneDelegate.swift in Sources */,
 				FABAAECF2C6A1ECC000D6A44 /* GOQiiAssessment.xcdatamodeld in Sources */,
@@ -310,7 +382,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,7 +410,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
